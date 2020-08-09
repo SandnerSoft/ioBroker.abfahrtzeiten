@@ -1,0 +1,79 @@
+{
+	"common": {
+		"name": "Abfahrtzeiten Adapter",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Abfahrtzeiten",
+		"titleLang": {
+			"en": "Abfahrtzeiten",
+			"de": "Abfahrtzeiten",
+			"ru": "Abfahrtzeiten",
+			"pt": "Abfahrtzeiten",
+			"nl": "Abfahrtzeiten",
+			"fr": "Abfahrtzeiten",
+			"it": "Abfahrtzeiten",
+			"es": "Abfahrtzeiten",
+			"pl": "Abfahrtzeiten",
+			"zh-cn": "Abfahrtzeiten"
+		},
+		"desc": {
+			"en": "abfahrtzeiten",
+			"de": "Adapter für Abfahrtzeiten (Bus/Bahn/Tram/U-Bahn/S-Bahn)",
+			"ru": "abfahrtzeiten",
+			"pt": "abfahrtzeiten",
+			"nl": "abfahrtzeiten",
+			"fr": "abfahrtzeiten",
+			"it": "abfahrtzeiten",
+			"es": "abfahrtzeiten",
+			"pl": "abfahrtzeiten",
+			"zh-cn": "Abfahrtzeiten"
+		},
+		"authors": [
+			"SandnerSoft <sandnersoft@googlemail.com>"
+		],
+		"keywords": [
+			"bahn",
+			"bus",
+			"tram",
+			"abfarhrt"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "abfahrtzeiten.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/SandnerSoft/ioBroker.abfahrtzeiten/master/admin/abfahrtzeiten.png",
+		"readme": "https://github.com/SandnerSoft/ioBroker.abfahrtzeiten/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "misc-data",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=1.4.2"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
